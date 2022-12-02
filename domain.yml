@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - bot_name
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hi! How are you feeling today?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Maybe this joke will cheer you up: Two fish are in a tank... One turns to the other and says, You man the guns. I'll drive"
+
+  utter_did_that_help:
+  - text: "Did that help?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  - text: "Yay!"
+  - text: ":)"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Cya"
+
+  utter_iamabot:
+  - text: "I am a flawed bot. Analyze and improve me with Botium."
+
+  utter_bot_name:
+  - text: "My name is Cyara T Bot. The 'T' stands for Training"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
