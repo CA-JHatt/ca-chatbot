@@ -11,13 +11,12 @@ intents:
   - bot_name
 
 responses:
+
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi! How are you?"
   - text: "Hi! How are you feeling today?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
   - text: "Maybe this joke will cheer you up: Two fish are in a tank... One turns to the other and says, You man the guns. I'll drive"
 
   utter_did_that_help:
@@ -37,6 +36,7 @@ responses:
 
   utter_bot_name:
   - text: "My name is Cyara T Bot. The 'T' stands for Training"
+
 
 session_config:
   session_expiration_time: 60
